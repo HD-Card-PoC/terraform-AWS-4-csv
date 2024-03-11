@@ -14,9 +14,6 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Canonical
 }
 
-data "aws_subnet" "default" {
-  id = var.subnet_id
-}
 
 resource "aws_instance" "web1" {
   ami           = data.aws_ami.ubuntu.id
