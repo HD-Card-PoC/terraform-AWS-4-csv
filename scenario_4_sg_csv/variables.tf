@@ -1,5 +1,5 @@
 variable "prefix" {
-  default = "Terraform-PoC-6-sg-csv"
+  default = "hd-PoC-4-sg-csv"
 }
 variable "region" {
   default = "ap-northeast-2"
